@@ -1,3 +1,4 @@
-fn main() {
-    println!("Hello, world!");
-}
+mod config;
+use deepl_api::*;
+
+fn main() {}
