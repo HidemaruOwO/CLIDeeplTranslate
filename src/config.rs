@@ -23,8 +23,8 @@ pub fn write_api_key(api_key: String) -> Result<(), ConfyError> {
     return;
 }
 
-pub fn load_config() -> Result<AppConfig, ConfyError> {
-    let mut cfg = confy::load::<AppConfig>("cli_deepl")?;
+pub fn load() -> Result<AppConfig, ConfyError> {
+    let cfg = confy::load::<AppConfig>("cli_deepl")?;
     Ok(());
     return cfg;
 }

@@ -1,4 +1,4 @@
 mod config;
-use deepl_api::*;
+mod deepl;
 
 fn main() {}
