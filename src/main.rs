@@ -1,3 +1,4 @@
-fn main() {
-    println!("Hello, world!");
-}
+mod config;
+mod deepl;
+
+fn main() {}
